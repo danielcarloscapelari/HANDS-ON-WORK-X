@@ -16,6 +16,27 @@
             align-items: center;
             line-height: 1.5;
         }
+        .links-container {
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .link-item a {
+            color: #2b6cb0;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border: 2px solid #2b6cb0;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .link-item a:hover {
+            background-color: #2b6cb0;
+            color: #ffffff;
+            text-decoration: none;
+        }
         .container {
             max-width: 1000px;
             width: 100%;
@@ -50,27 +71,6 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
         }
-        .links-container {
-            margin-top: 40px;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-        }
-        .link-item a {
-            color: #2b6cb0;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1em;
-            padding: 10px 20px;
-            border: 2px solid #2b6cb0;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
-        .link-item a:hover {
-            background-color: #2b6cb0;
-            color: #ffffff;
-            text-decoration: none;
-        }
         .footer {
             margin-top: 40px;
             font-size: 0.9em;
@@ -100,6 +100,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="links-container">
+        <div class="link-item">
+            <a href="https://www.figma.com/design/EYpnCF1nQVx4IImnt07TWi/Figma-HOW-IX?node-id=0-1&t=njW2rhOe8SPFUSLk-1" target="_blank">Protótipo no Figma</a>
+        </div>
+        <div class="link-item">
+            <a href="https://handonworkix.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNGZlY2EwNmRjZmUyNDY2MzgxYTc4NDMwYTg0YTJjMmEiLCJwIjoiaiJ9" target="_blank">Quadro no Jira</a>
+        </div>
+    </div>
     <div class="container">
         <h1>Estatísticas das Coletas de Resíduos Sólidos em Itajaí - 2023</h1>
         <p class="subtitle">Análise de Dados para Gestão Sustentável de Resíduos Urbanos</p>
@@ -108,14 +116,6 @@
                 src="https://app.powerbi.com/view?r=eyJrIjoiNmE5Mjg0MzYtOGEwMy00NTQwLTk4N2ItZmZmOWY5N2MxNDA1IiwidCI6ImQwOTEwZmZkLThhMzctNGJkYi1iYTY1LTdkMmQwZWI1N2RlOSIsImMiOjR9"
                 frameborder="0" allowFullScreen="true">
         </iframe>
-    </div>
-    <div class="links-container">
-        <div class="link-item">
-            <a href="https://www.figma.com/design/EYpnCF1nQVx4IImnt07TWi/Figma-HOW-IX?node-id=0-1&t=njW2rhOe8SPFUSLk-1" target="_blank">Protótipo no Figma</a>
-        </div>
-        <div class="link-item">
-            <a href="https://handonworkix.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNGZlY2EwNmRjZmUyNDY2MzgxYTc4NDMwYTg0YTJjMmEiLCJwIjoiaiJ9" target="_blank">Quadro no Jira</a>
-        </div>
     </div>
     <div class="footer">
         <p>Desenvolvido para fins acadêmicos e de pesquisa em gestão de resíduos sólidos urbanos.</p>
