@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relatório de Gestão de Resíduos</title>
+    <title>Estatísticas das Coletas de Lixo em Itajaí no Período de 2023</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -60,7 +60,7 @@
 <body>
 
     <div class="container">
-        <h1>Análise da Gestão de Resíduos em Itajaí</h1>
+        <h1>Estatísticas das Coletas de Lixo em Itajaí no Período de 2023</h1>
         <p>Este painel interativo foi criado para visualizar dados e insights sobre as ocorrências de lixo na cidade.</p>
 
         <iframe title="Relatório HOW IX" width="100%" height="700" 
