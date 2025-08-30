@@ -21,6 +21,7 @@
             display: flex;
             justify-content: center;
             gap: 30px;
+            flex-wrap: wrap;
         }
         .link-item a {
             color: #2b6cb0;
@@ -106,6 +107,12 @@
         </div>
         <div class="link-item">
             <a href="https://handonworkix.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiNGZlY2EwNmRjZmUyNDY2MzgxYTc4NDMwYTg0YTJjMmEiLCJwIjoiaiJ9" target="_blank">Quadro no Jira</a>
+        </div>
+        <div class="link-item">
+            <a href="https://www.canva.com/design/DAGxNz85foM/oCGx-6SU8NidTSAnj_Xu8Q/edit?utm_content=DAGxNz85foM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Canvas MVP</a>
+        </div>
+        <div class="link-item">
+            <a href="https://canvas-apps.pr.sebrae.com.br/canvas?id=1554701" target="_blank">Canvas de Modelo de Negócio</a>
         </div>
     </div>
     <div class="container">
